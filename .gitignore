@@ -49,3 +49,5 @@ __pycache__/
 *.pyc
 node_modules/
 .job-agent/
+__pycache__/
+*.pyc
