@@ -19,4 +19,4 @@ jobs:
       - name: Python tests
         run: python3 -m unittest discover -s tests -q
       - name: Node tests
-        run: node --test "tests/**/*.test.mjs"
+        run: node --test tests/*.test.mjs
