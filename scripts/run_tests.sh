@@ -15,7 +15,11 @@ fi
 
 echo
 echo "== Node (node --test) =="
-if ! node --test "tests/**/*.test.mjs"; then
+# Use a flat glob, not `tests/**/*.test.mjs`: the double-star only expands
+# where globstar is on (zsh, or bash with `shopt -s globstar`), and on a plain
+# bash CI runner it is passed through literally. Passing the directory instead
+# makes node try to execute the Python tests in there too.
+if ! node --test tests/*.test.mjs; then
   status=1
 fi
 
