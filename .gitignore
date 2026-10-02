@@ -30,16 +30,9 @@ applications/**
 TRACKER.md
 
 # Everything else personal that is not under profile/ or applications/
-profile-for-agents.md
 PLAN.md
-profile/linkedin-profile.md
-profile/why-repos-are-private.md
-profile/CLAIM-AUDIT-*.md
 profile/general/**
-profile/profile-for-agents.md
-profile/linkedin-thumbnails/**
-portfolio/**
-tracker-site/**
+profile/profile/linkedin-thumbnails/**
 *.png
 
 # Standard
