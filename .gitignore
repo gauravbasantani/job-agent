@@ -1,0 +1,51 @@
+# --- Private, never pushed ---
+# Your real resumes, personal info, and proof points
+profile/personal-info.md
+profile/proof-points.md
+profile/resumes-docx/*
+profile/resumes-pdf/*
+profile/resumes-md/*
+!profile/resumes-docx/.gitkeep
+!profile/resumes-pdf/.gitkeep
+!profile/resumes-md/.gitkeep
+profile/cover-letters-docx/*
+profile/cover-letters-pdf/*
+profile/cover-letters-md/*
+!profile/cover-letters-docx/.gitkeep
+!profile/cover-letters-pdf/.gitkeep
+!profile/cover-letters-md/.gitkeep
+
+# Per-job application data - contains PII (address, veteran status, salary
+# answers). Keep this local unless you deliberately strip PII and choose
+# to publish a redacted version.
+applications/**
+!applications/_template.md
+# NOTE: the old pattern was `applications/*.md`, which matched only direct
+# children and therefore missed every applications/<job>/application.md.
+# Corrected 2026-10-02.
+
+# The generated summary table - contains company/role/links which is
+# usually fine to share, but defaults to private. Remove this line if you
+# want to publish it via GitHub Pages.
+TRACKER.md
+
+# Everything else personal that is not under profile/ or applications/
+profile-for-agents.md
+PLAN.md
+profile/linkedin-profile.md
+profile/why-repos-are-private.md
+profile/CLAIM-AUDIT-*.md
+profile/general/**
+profile/profile-for-agents.md
+profile/linkedin-thumbnails/**
+portfolio/**
+tracker-site/**
+*.png
+
+# Standard
+.env
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.job-agent/
