@@ -1,0 +1,17 @@
+{
+  "name": "job-agent",
+  "version": "1.0.0",
+  "description": "Run a job search with an AI coding agent. Scores postings honestly, tailors resumes from an evidence file you control, and never auto-submits.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "./scripts/run_tests.sh",
+    "test:node": "node --test \"tests/**/*.test.mjs\"",
+    "test:py": "python3 -m unittest discover -s tests -q",
+    "tracker": "python3 scripts/build_tracker.py"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": ["job-search", "ai-agent", "claude-code", "resume", "ats"]
+}
