@@ -77,8 +77,7 @@ on.
 
 | Need to... | Read this |
 |---|---|
-| **Verify any claim about the user before using it** | **`profile/profile-for-agents.md`** (source of truth, 2026-10-02) |
-| Explain why YourSideProject's source is private | `profile/why-repos-are-private.md` |
+| **Verify any claim about the user before using it** | **`profile/proof-points.md`** (the evidence file, and the only source of claims) |
 | Understand the rules that apply to everything | `context/hard-rules.md` |
 | Match the user's writing voice | `context/writing-style.md` |
 | Know what makes a resume ATS/HR-standard | `context/resume-standards.md` |
@@ -99,19 +98,24 @@ on.
 | Find the user's actual resumes/personal info | `profile/` (gitignored, local only) |
 | See past applications | `applications/` (gitignored, local only) — or the summary in `TRACKER.md` |
 
-## The claim rule (added 2026-10-02)
+## The claim rule
 
-`profile/profile-for-agents.md` is the single source of truth for every factual
-claim about the user: numbers, ownership, project status, links. `profile/proof-points.md`
-is corrected to match it and carries the approved bullets.
+`profile/proof-points.md` is the single source of truth for every factual claim
+about the user: numbers, ownership, project status, links. **Nothing may be
+claimed that is not in that file.**
 
-**On every new resume or cover letter: use `yourname.example.com` as the
-portfolio link, and take metrics from the corrected proof points, never from an
-older `resume-used.md`.** Material already sent is not revisited. Its **"Never
-claim"** list overrides this file, the résumé standards, and anything written
-in an older application folder. Do not copy a bullet from a previous
-`resume-used.md` without checking it against that list first; many older
-folders contain claims that are now forbidden.
+It contains a section listing what the user does **not** have. That list
+overrides this file, the resume standards, and anything written in an older
+application folder. Check it before writing any bullet.
+
+**Do not copy a bullet from a previous `resume-used.md` without checking it
+against that list first.** As a search runs for months, older folders
+accumulate claims that later turn out to be wrong, and copying them forward is
+how a single error spreads across fifty applications.
+
+If `profile/proof-points.md` or `profile/personal-info.md` does not exist yet,
+stop and tell the user to run through `SETUP.md` first. Do not infer their
+details from a resume, and never guess a demographic answer from a name.
 
 ## The rule that never changes
 
