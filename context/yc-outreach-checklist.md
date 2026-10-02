@@ -74,7 +74,8 @@ the reason to prefer ten messages like the Spur one over a hundred more forms.
 
 ## Sponsorship on YC boards
 The visa field usually reads "US citizen/visa only", which means **they do not
-sponsor**. the user qualifies today on F-1 STEM OPT through **2028-06-22**.
+sponsor**. If you are on a time-limited work authorization, say what you have
+and the date it runs to, rather than letting them guess.
 
 **Do not raise it in a cold first message.** Answer it truthfully the moment a
 form field or a person asks, and never deny it:
