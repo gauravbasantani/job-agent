@@ -52,19 +52,33 @@ application folder.
 ## Getting started
 
 ```bash
-git clone <your fork>
-cd job-agent-template
-./scripts/run_tests.sh      # should pass on a clean machine
+git clone https://github.com/yourname/job-agent
+cd job-agent
+./scripts/run_tests.sh      # passes on a clean machine, installs nothing
 ```
 
-Then **read [`SETUP.md`](SETUP.md)**. It walks through the four files that make
-this yours, with examples of weak versus strong input. About an hour.
+There is no `npm install` and no `pip install`. **The dependency tree is empty
+on purpose.** This runs against your resume, your contact details and your
+application history, and nothing here should be able to phone home.
+
+Then **read [`SETUP.md`](SETUP.md)**: the four files that make this yours, with
+examples of weak versus strong input. About an hour, and that hour decides the
+quality of everything after it.
 
 Open the folder in your agent and say:
 
 ```
 Read AGENTS.md, then help me apply to <posting URL>
 ```
+
+### Documentation
+
+| | |
+|---|---|
+| [`SETUP.md`](SETUP.md) | Make it yours. Start here |
+| [`docs/how-it-works.md`](docs/how-it-works.md) | The design decisions, the score guard, why no Playwright |
+| [`AGENTS.md`](AGENTS.md) | What your agent reads first |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Where help is most useful |
 
 ---
 
