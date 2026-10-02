@@ -9,7 +9,7 @@ is the whole token strategy.
 ```
 Read AGENTS.md first, then context/hard-rules.md.
 
-Before you claim anything about me, read profile/profile-for-agents.md. Its
+Before you claim anything about me, read profile/proof-points.md. Its
 "Never claim" list overrides every other file and every older resume-used.md.
 Do not copy a bullet from a previous application folder without checking it
 against that list, because most of the older folders contain claims that are
@@ -69,7 +69,7 @@ Ashby publishedAt and Lever createdAt are real post dates. US only.
 **If you are handing work to another agent (Codex and so on):**
 ```
 AGENTS.md is written for any agent, not just Claude. Point it at
-profile/profile-for-agents.md and context/cover-letter-guidelines.md before it
+profile/proof-points.md and context/cover-letter-guidelines.md before it
 writes anything.
 ```
 
@@ -85,7 +85,7 @@ I have an interview coming up. Read these three files before anything else:
 
 1. applications/<the-job-folder>/interview-prep.md
    (the role, the stages, the questions and my drafted answers)
-2. profile/profile-for-agents.md
+2. profile/proof-points.md
    (source of truth for every claim about me. Its "Never claim" list overrides
    everything. In particular: ReQuesta has no completion metric, YourSideProject was
    directed not built solo, the Your University design system was grown not built from
